@@ -1,0 +1,36 @@
+name: autopost
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  youtube_explode_dart: ^2.4.0
+  provider: ^6.0.5
+  shared_preferences: ^2.2.0
+  just_audio: ^0.9.34
+  dart_openai: ^5.1.0
+  flutter_dotenv: ^5.2.1
+  linkedin_login: ^2.3.1
+  url_launcher: ^6.1.12
+  dio: ^5.8.0+1
+  http: ^1.1.0
+  path_provider: ^2.1.1
+  google_generative_ai: ^0.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
